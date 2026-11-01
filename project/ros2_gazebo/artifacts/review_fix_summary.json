@@ -1,0 +1,58 @@
+{
+  "scope": "Two previously failed blue cases plus one successful control; not a rerun of all nine original cases",
+  "opening_rad": 0.2,
+  "physical_results": [
+    {
+      "case": "seed_19_blue_crayon",
+      "xy_error_mm": 2.4950820308337143,
+      "max_other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      }
+    },
+    {
+      "case": "seed_31_blue_crayon",
+      "xy_error_mm": 2.3297467503124047,
+      "max_other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      }
+    },
+    {
+      "case": "seed_7_blue_crayon",
+      "xy_error_mm": 2.494384024170659,
+      "max_other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      }
+    }
+  ],
+  "guards": [
+    {
+      "case": "close_spacing",
+      "phase": "blocked",
+      "passed": true
+    },
+    {
+      "case": "target_outside_roi",
+      "phase": "not_detected",
+      "passed": true
+    },
+    {
+      "case": "destination_occupied",
+      "phase": "blocked",
+      "passed": true
+    },
+    {
+      "case": "target_occluded",
+      "phase": "not_detected",
+      "passed": true
+    }
+  ],
+  "initial_suite_fixture_issue": "set_pose timed out after first successful transfer; remaining cases rerun separately",
+  "demo_status": "PASS",
+  "demo_transfers": 3,
+  "demo_seconds": 84.4,
+  "video_speed": 2,
+  "hold_stop_confirmation": "hold command path reviewed; actual stopping response after injected abnormal motion is not validated"
+}

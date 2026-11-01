@@ -1,0 +1,236 @@
+{
+  "results": [
+    {
+      "phase": "unsupported",
+      "request": {
+        "id": "0",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "selection": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.6898171807394069,
+        "text": "赤いクレヨンを持ってきて"
+      }
+    },
+    {
+      "phase": "rejected",
+      "request": {
+        "id": "1",
+        "text": "消しゴムを持ってこないで"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "reason": "cancel or negative instruction"
+    },
+    {
+      "phase": "clarify",
+      "request": {
+        "id": "2",
+        "text": "赤を持ってきて"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "selection": {
+        "status": "clarify",
+        "candidates": [
+          "red_crayon",
+          "red_colored_pencil"
+        ],
+        "text": "赤を持ってきて",
+        "reason": "ambiguous or unavailable"
+      }
+    },
+    {
+      "phase": "noop",
+      "request": {
+        "id": "3",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "reason": "already at destination"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "4",
+        "text": "消しゴムを戻して"
+      },
+      "location": "storage",
+      "transfers": 1,
+      "xy_error": 0.0009558679995096935,
+      "object": [
+        0.17904413202226369,
+        -2.0402197208332962e-07,
+        1.0129999894939075
+      ]
+    },
+    {
+      "phase": "noop",
+      "request": {
+        "id": "5",
+        "text": "消しゴムを戻して"
+      },
+      "location": "storage",
+      "transfers": 1,
+      "reason": "already at destination"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "6",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "tray",
+      "transfers": 2,
+      "xy_error": 0.0009711553478013253,
+      "object": [
+        0.1790288549905297,
+        -0.10000448108737464,
+        1.0129999884999807
+      ]
+    }
+  ],
+  "events": [
+    {
+      "phase": "ready",
+      "request": null,
+      "location": "tray",
+      "transfers": 0
+    },
+    {
+      "phase": "unsupported",
+      "request": {
+        "id": "0",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "selection": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.6898171807394069,
+        "text": "赤いクレヨンを持ってきて"
+      }
+    },
+    {
+      "phase": "rejected",
+      "request": {
+        "id": "1",
+        "text": "消しゴムを持ってこないで"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "reason": "cancel or negative instruction"
+    },
+    {
+      "phase": "clarify",
+      "request": {
+        "id": "2",
+        "text": "赤を持ってきて"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "selection": {
+        "status": "clarify",
+        "candidates": [
+          "red_crayon",
+          "red_colored_pencil"
+        ],
+        "text": "赤を持ってきて",
+        "reason": "ambiguous or unavailable"
+      }
+    },
+    {
+      "phase": "noop",
+      "request": {
+        "id": "3",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "reason": "already at destination"
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "4",
+        "text": "消しゴムを戻して"
+      },
+      "location": "tray",
+      "transfers": 0,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9796313353978462,
+        "text": "消しゴムを戻して"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "4",
+        "text": "消しゴムを戻して"
+      },
+      "location": "storage",
+      "transfers": 1,
+      "xy_error": 0.0009558679995096935,
+      "object": [
+        0.17904413202226369,
+        -2.0402197208332962e-07,
+        1.0129999894939075
+      ]
+    },
+    {
+      "phase": "noop",
+      "request": {
+        "id": "5",
+        "text": "消しゴムを戻して"
+      },
+      "location": "storage",
+      "transfers": 1,
+      "reason": "already at destination"
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "6",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "storage",
+      "transfers": 1,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9217589502055256,
+        "text": "消しゴムを持ってきて"
+      }
+    },
+    {
+      "phase": "busy",
+      "request": {
+        "text": "busy-check"
+      },
+      "location": "storage",
+      "transfers": 1
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "6",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "tray",
+      "transfers": 2,
+      "xy_error": 0.0009711553478013253,
+      "object": [
+        0.1790288549905297,
+        -0.10000448108737464,
+        1.0129999884999807
+      ]
+    }
+  ]
+}

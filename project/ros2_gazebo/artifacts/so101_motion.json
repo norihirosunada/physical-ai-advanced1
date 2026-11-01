@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "robot": "SO-101 follower new calibration",
+  "simulator": "Gazebo Fortress",
+  "initial": {
+    "shoulder_pan": 4.3137583557233124e-17,
+    "shoulder_lift": 2.393421810763973e-11,
+    "elbow_flex": 8.464057796958673e-11,
+    "wrist_flex": 1.300003995492946e-10,
+    "wrist_roll": 1.9473451079186923e-13
+  },
+  "arm_target": [
+    0.2,
+    0.1,
+    -0.1,
+    0.1,
+    0.2
+  ],
+  "arm_measured": {
+    "shoulder_pan": 0.18600000001066191,
+    "shoulder_lift": 0.09300000002025303,
+    "elbow_flex": -0.09299999994984129,
+    "wrist_flex": 0.0930000000734807,
+    "wrist_roll": 0.18599999998153707
+  },
+  "gripper_open": {
+    "gripper": 0.48523774988959756
+  },
+  "gripper_close": {
+    "gripper": 0.11409572443692206
+  },
+  "returned": {
+    "shoulder_pan": 0.013999999989344172,
+    "shoulder_lift": 0.007000000030267901,
+    "elbow_flex": -0.0069999998705456805,
+    "wrist_flex": 0.007000000191807714,
+    "wrist_roll": 0.014000000019213778
+  },
+  "gripper_restored": {
+    "gripper": 0.014499999984358037
+  },
+  "tolerance_rad": 0.015
+}

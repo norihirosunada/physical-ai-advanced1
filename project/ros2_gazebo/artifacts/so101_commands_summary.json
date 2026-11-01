@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "commands": 7,
+  "physical_transfers": 2,
+  "placement_error_mm": [
+    0.9558679995096936,
+    0.9711553478013253
+  ],
+  "busy_rejection_observed": true,
+  "limitations": [
+    "one box-shaped eraser, fixed locations",
+    "Gazebo ground-truth pose; no camera perception",
+    "simplified finger collisions; no hardware validation"
+  ]
+}

@@ -1,0 +1,13 @@
+services:
+  desktop:
+    image: airobotbook/ros2-desktop-ai-robot-book-humble@sha256:b58ec74c019aacd9ce4818fa25fc5a9e0a1f22f8c9cd1f5260994bf15cd9eb63
+    platform: linux/amd64
+    container_name: pai-ros2-gazebo
+    shm_size: 512m
+    ports:
+      - "127.0.0.1:6080:80"
+    environment:
+      RESOLUTION: 1280x800
+      LIBGL_ALWAYS_SOFTWARE: "1"
+      ROS_DOMAIN_ID: "27"
+      RMW_IMPLEMENTATION: rmw_cyclonedds_cpp

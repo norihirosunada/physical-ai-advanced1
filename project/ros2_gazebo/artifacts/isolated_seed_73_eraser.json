@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "results": [],
+  "planned_cases": [
+    "seed_73_eraser"
+  ],
+  "fixture_note": "set_pose between idle tasks only; not robot transport",
+  "error": "evaluation feedback timeout"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE",
+  "groups": [
+    {
+      "name": "guards",
+      "exit_code": 0,
+      "status": "PASS",
+      "file": "isolated_guards.json",
+      "world_restarted_before": false
+    },
+    {
+      "name": "seed_31_eraser",
+      "exit_code": 0,
+      "status": "PASS",
+      "file": "isolated_seed_31_eraser.json",
+      "world_restarted_before": false
+    },
+    {
+      "name": "seed_31_red_crayon",
+      "exit_code": 0,
+      "status": "PASS",
+      "file": "isolated_seed_31_red_crayon.json",
+      "world_restarted_before": false
+    },
+    {
+      "name": "seed_31_blue_crayon",
+      "exit_code": 1,
+      "status": "FAIL",
+      "file": "isolated_seed_31_blue_crayon.json",
+      "world_restarted_before": false
+    },
+    {
+      "name": "seed_73_eraser",
+      "exit_code": 1,
+      "status": "FAIL",
+      "file": "isolated_seed_73_eraser.json",
+      "world_restarted_before": true
+    },
+    {
+      "name": "seed_73_red_crayon",
+      "exit_code": 1,
+      "status": "FAIL",
+      "file": "isolated_seed_73_red_crayon.json",
+      "world_restarted_before": true
+    },
+    {
+      "name": "seed_73_blue_crayon",
+      "exit_code": 0,
+      "status": "PASS",
+      "file": "isolated_seed_73_blue_crayon.json",
+      "world_restarted_before": true
+    }
+  ],
+  "reset_rule": "Failed trials remain recorded; next group starts in a fresh world."
+}

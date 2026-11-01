@@ -1,0 +1,509 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "case": {
+        "name": "seed_73_eraser",
+        "seed": 73,
+        "target": "eraser",
+        "expected": "done",
+        "objects": [
+          {
+            "id": "eraser",
+            "size": [
+              0.022,
+              0.022,
+              0.026
+            ],
+            "color": [
+              0.95,
+              0.45,
+              0.6,
+              1
+            ],
+            "position": [
+              0.17738523788583901,
+              0.040278257671215505,
+              1.013
+            ],
+            "yaw": 0.07697737976732244
+          },
+          {
+            "id": "red_crayon",
+            "size": [
+              0.018,
+              0.042,
+              0.026
+            ],
+            "color": [
+              0.9,
+              0.08,
+              0.08,
+              1
+            ],
+            "position": [
+              0.21775252859564903,
+              -0.014350419977872704,
+              1.013
+            ],
+            "yaw": 0.5663545685210264
+          },
+          {
+            "id": "blue_crayon",
+            "size": [
+              0.018,
+              0.042,
+              0.026
+            ],
+            "color": [
+              0.08,
+              0.18,
+              0.95,
+              1
+            ],
+            "position": [
+              0.22041276136642624,
+              0.10211275592411331,
+              1.013
+            ],
+            "yaw": 0.5866955672210056
+          }
+        ]
+      },
+      "request": {
+        "id": "52b1a39dc4264a9cae2783123327b8c2",
+        "text": "消しゴムを持ってきて"
+      },
+      "result": {
+        "phase": "done",
+        "request": {
+          "id": "52b1a39dc4264a9cae2783123327b8c2",
+          "text": "消しゴムを持ってきて"
+        },
+        "location": "receiving",
+        "transfers": 2,
+        "xy_error": 0.0009730756461031919,
+        "perception_xy_error": 0.0005320459965203505,
+        "other_displacement": {
+          "red_crayon": 0.0,
+          "blue_crayon": 0.0
+        },
+        "artifact": "/workspace/artifacts/scattered_command_1793243240297763715.json"
+      },
+      "before": {
+        "eraser": [
+          0.17738523788583901,
+          0.04027825767121557,
+          1.0129999999141661
+        ],
+        "red_crayon": [
+          0.2177525285965863,
+          -0.014350419977273932,
+          1.0129999997971058
+        ],
+        "blue_crayon": [
+          0.22041276136642624,
+          0.10211275592411329,
+          1.0129999998985502
+        ]
+      },
+      "image": "/workspace/artifacts/evaluation_scene_6bf28446d7fa43648d9447ef842d9da6.png",
+      "observation": {
+        "stamp": {
+          "sec": 74,
+          "nanosec": 600000000
+        },
+        "objects": {
+          "red_crayon": {
+            "position": [
+              0.217996646853952,
+              -0.013682107972805092,
+              1.013
+            ],
+            "yaw": 0.5634918786574956,
+            "pixels": 1126,
+            "pixel_center": [
+              354.78952042628777,
+              212.10657193605684
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "blue_crayon": {
+            "position": [
+              0.22025984957377148,
+              0.10120765183447786,
+              1.013
+            ],
+            "yaw": 0.5758494093483866,
+            "pixels": 1292,
+            "pixel_center": [
+              215.4357585139319,
+              209.36145510835914
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "eraser": {
+            "position": [
+              0.1779081108565187,
+              0.04037662839321117,
+              1.013
+            ],
+            "yaw": 0.07677193085220857,
+            "pixels": 737,
+            "pixel_center": [
+              289.21981004070557,
+              260.7313432835821
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          }
+        }
+      },
+      "after": {
+        "eraser": [
+          0.17903099479654186,
+          -0.10008891079074109,
+          1.0129999526151066
+        ],
+        "red_crayon": [
+          0.2177525285965863,
+          -0.014350419977273932,
+          1.0129999997971058
+        ],
+        "blue_crayon": [
+          0.22041276136642624,
+          0.10211275592411329,
+          1.0129999998985502
+        ]
+      },
+      "max_other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "wall_seconds": 47.34770635497989,
+      "sim_seconds": 41.05500000000001,
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "seed_73_red_crayon",
+        "seed": 73,
+        "target": "red_crayon",
+        "expected": "done",
+        "objects": [
+          {
+            "id": "eraser",
+            "size": [
+              0.022,
+              0.022,
+              0.026
+            ],
+            "color": [
+              0.95,
+              0.45,
+              0.6,
+              1
+            ],
+            "position": [
+              0.17738523788583901,
+              0.040278257671215505,
+              1.013
+            ],
+            "yaw": 0.07697737976732244
+          },
+          {
+            "id": "red_crayon",
+            "size": [
+              0.018,
+              0.042,
+              0.026
+            ],
+            "color": [
+              0.9,
+              0.08,
+              0.08,
+              1
+            ],
+            "position": [
+              0.21775252859564903,
+              -0.014350419977872704,
+              1.013
+            ],
+            "yaw": 0.5663545685210264
+          },
+          {
+            "id": "blue_crayon",
+            "size": [
+              0.018,
+              0.042,
+              0.026
+            ],
+            "color": [
+              0.08,
+              0.18,
+              0.95,
+              1
+            ],
+            "position": [
+              0.22041276136642624,
+              0.10211275592411331,
+              1.013
+            ],
+            "yaw": 0.5866955672210056
+          }
+        ]
+      },
+      "request": {
+        "id": "7f1d0dc029a94895b19dc80062c76d0d",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "result": {
+        "phase": "done",
+        "request": {
+          "id": "7f1d0dc029a94895b19dc80062c76d0d",
+          "text": "赤いクレヨンを持ってきて"
+        },
+        "location": "receiving",
+        "transfers": 3,
+        "xy_error": 0.002332161768038585,
+        "perception_xy_error": 0.0007113602159298421,
+        "other_displacement": {
+          "eraser": 0.0,
+          "blue_crayon": 0.0
+        },
+        "artifact": "/workspace/artifacts/scattered_command_1793243293251973004.json"
+      },
+      "before": {
+        "eraser": [
+          0.17738523788583901,
+          0.04027825767121557,
+          1.0129999999141661
+        ],
+        "red_crayon": [
+          0.2177526789806891,
+          -0.014350324280315857,
+          1.0129992197532003
+        ],
+        "blue_crayon": [
+          0.22041276136642624,
+          0.10211275592411329,
+          1.0129999998985502
+        ]
+      },
+      "image": "/workspace/artifacts/evaluation_scene_4b40c216b742443d986a1b96256e14e6.png",
+      "observation": {
+        "stamp": {
+          "sec": 120,
+          "nanosec": 400000000
+        },
+        "objects": {
+          "red_crayon": {
+            "position": [
+              0.217996646853952,
+              -0.013682107972805092,
+              1.013
+            ],
+            "yaw": 0.5634918786574956,
+            "pixels": 1126,
+            "pixel_center": [
+              354.78952042628777,
+              212.10657193605684
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "blue_crayon": {
+            "position": [
+              0.22025984957377148,
+              0.10120765183447786,
+              1.013
+            ],
+            "yaw": 0.5758494093483866,
+            "pixels": 1292,
+            "pixel_center": [
+              215.4357585139319,
+              209.36145510835914
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "eraser": {
+            "position": [
+              0.1779081108565187,
+              0.04037662839321117,
+              1.013
+            ],
+            "yaw": 0.07677193085220857,
+            "pixels": 737,
+            "pixel_center": [
+              289.21981004070557,
+              260.7313432835821
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          }
+        }
+      },
+      "after": {
+        "eraser": [
+          0.17738523788583901,
+          0.04027825767121557,
+          1.0129999999141661
+        ],
+        "red_crayon": [
+          0.17792261022231742,
+          -0.10105991991389955,
+          1.012999952780316
+        ],
+        "blue_crayon": [
+          0.22041276136642624,
+          0.10211275592411329,
+          1.0129999998985502
+        ]
+      },
+      "max_other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "wall_seconds": 47.12734697997803,
+      "sim_seconds": 41.035,
+      "passed": true
+    }
+  ],
+  "planned_cases": [
+    "seed_73_eraser",
+    "seed_73_red_crayon"
+  ],
+  "fixture_note": "set_pose between idle tasks only; not robot transport",
+  "restored_seed": 7,
+  "events": [
+    {
+      "phase": "done",
+      "request": {
+        "id": "df7c8585f9734d2fa0af2563c9d12977",
+        "text": "青いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "xy_error": 0.0026121462683276805,
+      "perception_xy_error": 0.0009179299697731122,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793243167208304751.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "52b1a39dc4264a9cae2783123327b8c2",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9217589502055256,
+        "text": "消しゴムを持ってきて"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "52b1a39dc4264a9cae2783123327b8c2",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "source",
+      "transfers": 1,
+      "observation": {
+        "position": [
+          0.1779081108565187,
+          0.04037662839321117,
+          1.013
+        ],
+        "yaw": 0.07677193085220857,
+        "pixels": 737,
+        "pixel_center": [
+          289.21981004070557,
+          260.7313432835821
+        ],
+        "region": "source",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "52b1a39dc4264a9cae2783123327b8c2",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 2,
+      "xy_error": 0.0009730756461031919,
+      "perception_xy_error": 0.0005320459965203505,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793243240297763715.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "7f1d0dc029a94895b19dc80062c76d0d",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 2,
+      "selection": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.6898171807394069,
+        "text": "赤いクレヨンを持ってきて"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "7f1d0dc029a94895b19dc80062c76d0d",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "source",
+      "transfers": 2,
+      "observation": {
+        "position": [
+          0.217996646853952,
+          -0.013682107972805092,
+          1.013
+        ],
+        "yaw": 0.5634918786574956,
+        "pixels": 1126,
+        "pixel_center": [
+          354.78952042628777,
+          212.10657193605684
+        ],
+        "region": "source",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "7f1d0dc029a94895b19dc80062c76d0d",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 3,
+      "xy_error": 0.002332161768038585,
+      "perception_xy_error": 0.0007113602159298421,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793243293251973004.json"
+    }
+  ]
+}

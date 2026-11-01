@@ -1,0 +1,17 @@
+{
+  "trials": [
+    {
+      "status": "PASS",
+      "lift_mm": 62.00533156222865,
+      "placement_error_mm": 0.9713208156258767,
+      "simulation_seconds": 37.329
+    },
+    {
+      "status": "PASS",
+      "lift_mm": 62.005304852021496,
+      "placement_error_mm": 0.9716804629608496,
+      "simulation_seconds": 37.64
+    }
+  ],
+  "scope": "two repeats of one fixed initial condition; simplified contact geometry; no real hardware test"
+}

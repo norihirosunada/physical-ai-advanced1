@@ -1,0 +1,14 @@
+[
+  {
+    "opening_rad": 0.8,
+    "minimum_tip_gap_m": 0.06179830690959193,
+    "swept_tip_xy_radius_m": 0.07708723386748505,
+    "fits_22mm_proxy": true
+  },
+  {
+    "opening_rad": 0.2,
+    "minimum_tip_gap_m": 0.027908527665454857,
+    "swept_tip_xy_radius_m": 0.0351025745823168,
+    "fits_22mm_proxy": true
+  }
+]

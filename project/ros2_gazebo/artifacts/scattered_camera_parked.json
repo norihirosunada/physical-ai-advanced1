@@ -1,0 +1,50 @@
+{
+  "stamp": {
+    "sec": 79,
+    "nanosec": 0
+  },
+  "objects": {
+    "red_crayon": {
+      "position": [
+        0.23077694459309325,
+        0.050181278309536,
+        1.013
+      ],
+      "yaw": -0.12547862477676874,
+      "pixels": 1182,
+      "pixel_center": [
+        277.3274111675127,
+        196.60490693739425
+      ],
+      "method": "calibrated RGB color and PCA"
+    },
+    "blue_crayon": {
+      "position": [
+        0.158970971209863,
+        0.061685531868432356,
+        1.013
+      ],
+      "yaw": 0.31566328960118595,
+      "pixels": 1170,
+      "pixel_center": [
+        263.3735042735043,
+        283.7008547008547
+      ],
+      "method": "calibrated RGB color and PCA"
+    },
+    "eraser": {
+      "position": [
+        0.18140455555995097,
+        -0.004817299646515401,
+        1.013
+      ],
+      "yaw": 0.0,
+      "pixels": 728,
+      "pixel_center": [
+        344.0370879120879,
+        256.49038461538464
+      ],
+      "method": "calibrated RGB color and PCA"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?><sdf version="1.6"><world name="default">
+<physics name="1ms" type="ignored"><max_step_size>0.001</max_step_size><real_time_factor>1</real_time_factor></physics>
+<plugin filename="ignition-gazebo-physics-system" name="ignition::gazebo::systems::Physics"/>
+<plugin filename="ignition-gazebo-user-commands-system" name="ignition::gazebo::systems::UserCommands"/>
+<plugin filename="ignition-gazebo-scene-broadcaster-system" name="ignition::gazebo::systems::SceneBroadcaster"/>
+<light name="sun" type="directional"><pose>0 0 10 0 0 0</pose><diffuse>0.9 0.9 0.9 1</diffuse><direction>-0.5 0.1 -1</direction><cast_shadows>true</cast_shadows></light>
+<model name="ground_plane"><static>true</static><link name="ground"><collision name="collision"><geometry><plane><normal>0 0 1</normal><size>20 20</size></plane></geometry></collision><visual name="visual"><geometry><plane><normal>0 0 1</normal><size>20 20</size></plane></geometry><material><diffuse>0.4 0.45 0.5 1</diffuse></material></visual></link></model>
+<model name="table"><static>true</static><pose>0.29 0 0.975 0 0 0</pose><link name="tabletop"><collision name="collision"><geometry><box><size>0.8 1.4 0.05</size></box></geometry></collision><visual name="visual"><geometry><box><size>0.8 1.4 0.05</size></box></geometry><material><diffuse>0.75 0.65 0.5 1</diffuse></material></visual></link></model>
+<model name="wood_cube_5cm"><pose>0 -0.1 1.025 0 0 0</pose><link name="cube"><inertial><mass>0.05</mass><inertia><ixx>0.00002083</ixx><iyy>0.00002083</iyy><izz>0.00002083</izz></inertia></inertial><collision name="collision"><geometry><box><size>0.05 0.05 0.05</size></box></geometry></collision><visual name="visual"><geometry><box><size>0.05 0.05 0.05</size></box></geometry><material><diffuse>0.8 0.25 0.15 1</diffuse></material></visual></link></model>
+</world></sdf>

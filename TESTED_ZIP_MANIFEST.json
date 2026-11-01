@@ -1,0 +1,794 @@
+{
+  "README.md": {
+    "bytes": 1354,
+    "sha256": "3018b0e12c60234808f65dcb86b7b3b27d3026351db1cd3cbe3f6e3a11aa82b4"
+  },
+  "preparation/ART_MATERIALS_CONCEPT.md": {
+    "bytes": 5984,
+    "sha256": "91fad6dc954522df43bb1c4cc7050dd1a4d002f5bb00c7bf2d24c81bc6fce3aa"
+  },
+  "preparation/PLAN.md": {
+    "bytes": 2196,
+    "sha256": "59abf4d1d0f0c44892e5a2467dd2730d7d40d8e268cbf420e8158d4288c499d5"
+  },
+  "preparation/PROGRESS.md": {
+    "bytes": 8781,
+    "sha256": "2f9f80b96397613280f3964f73697849903b0ed5b024a90efe4befc6514d02d5"
+  },
+  "preparation/REVIEW_AND_ACTIONS.md": {
+    "bytes": 3796,
+    "sha256": "1d9e93ab98da5aad9e020701717adee83cce1a748c37e825da1d6a551dcb2a3f"
+  },
+  "preparation/SCATTERED_TRAY_EVALUATION.md": {
+    "bytes": 3458,
+    "sha256": "76fc62e78029974f5eb3d9880745944154b7147d20deec5e17ef7e0a5bf8308e"
+  },
+  "project/art_assistant/catalog.py": {
+    "bytes": 1066,
+    "sha256": "bcab04023a018e2c63f11e8532f8ba34dde0cff0c28d0366a2dd12dd02baa6f8"
+  },
+  "project/art_assistant/intent.py": {
+    "bytes": 2713,
+    "sha256": "94600688710da66155070618f8585176fbc5c89cf27c92796c5d51670af8db43"
+  },
+  "project/ros2_gazebo/.gitignore": {
+    "bytes": 131,
+    "sha256": "2c3946a2804775dd6674b96e4c0e6f8f38bd0d4e6eae29cb2ff2d2e7904265fe"
+  },
+  "project/ros2_gazebo/README.md": {
+    "bytes": 21211,
+    "sha256": "acea456505be010a5c42fd1a3e93963b17874150f7b21300eb6b0acf4aa02f53"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_1079e600149c4300b438673b1526e623.png": {
+    "bytes": 71692,
+    "sha256": "026bede645a99f9e32687ad2507cf89d47b35924bf62ccc256c45553820448e3"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_36efbe1906474b8386ad6f775a874600.png": {
+    "bytes": 71696,
+    "sha256": "5dc83f691e00f28b7f2fb06306de692af44e854b0fd9343344f7b6cae6b66c06"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_3bf95f17ca994124b8cf49abc28926da.png": {
+    "bytes": 72111,
+    "sha256": "f3e3f57497a9d9eb47013c1d31e0d503ff8745b9e774ef0834d86c8e26dbd168"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_4b40c216b742443d986a1b96256e14e6.png": {
+    "bytes": 72334,
+    "sha256": "3f3de0bc0310c5a3c878e1b4992131efab2c8bc982e96416c003cf20d89660b2"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_4d8bea5afa3b48f388ccbdd565d4de13.png": {
+    "bytes": 70883,
+    "sha256": "4f926756327d46fddfe176cd1dc1bf1c4368fed96425538b8c30e7d2fe9d0cf5"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_6bf28446d7fa43648d9447ef842d9da6.png": {
+    "bytes": 72326,
+    "sha256": "43dad4b8b1a8e899607d6a744af6fae768809620e77abe2f7ceba4ba52fbfb99"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_6d44570a1e244340ad07cc45af80f26e.png": {
+    "bytes": 72119,
+    "sha256": "5b6a648b7e1b408633d29cde12768ade0ca886a490fdc08bb936b258d63a8f97"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_76ccc525c8964204b2951aa4d0ce4afe.png": {
+    "bytes": 71875,
+    "sha256": "771b99a2b4a89934a447065c9bac028d54767b56259bffd5915e14e035b69b95"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_831774357d49433d9f910dfe4d011e43.png": {
+    "bytes": 72120,
+    "sha256": "021b2b9e725eb8816022fd0b8a747b5b55a4b414a770c0e0ab9de5f968792144"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_837930f6e32747caa9b3512f89ae1305.png": {
+    "bytes": 73439,
+    "sha256": "5fce4c9771eed58b23d4fd908aafd9f9cc9345f67fc6f935b8039f853c1048d9"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_98caedbd0b7f4a479b42f95dfa0c331e.png": {
+    "bytes": 72307,
+    "sha256": "3f8a3c123f9fa0a67f16fc5531e53f17028e436f495ce64f1fa5bc4fa6677881"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_9b3615a5dc8d4b2a92c7ee1b6642166d.png": {
+    "bytes": 70886,
+    "sha256": "14470271b068c354cb4a9e55f26a5990c14b7f1a87042a5d6924a708a7956bc5"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_9d30dae46e314f27887bc652ece179cb.png": {
+    "bytes": 70689,
+    "sha256": "8be5bfbcdd811df72763e7ee093521ddf37e6c0bcf85f00c2a4adde71e9feb31"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_a8d70e2b9eda44088bfa8e695eae6ce6.png": {
+    "bytes": 73429,
+    "sha256": "af253e021f636c2dc4d596c0ef309b4f92c1e31d5604434e2117d80f8fb8f5e2"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_abb891af35ed4212baa7a49784cc9c22.png": {
+    "bytes": 70661,
+    "sha256": "fcc650e87209d72e227a9c59869bf65c8686699be9dc4272550681a025fbe752"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_bae943ad98f54c8f99cec6e2f3d0c5b9.png": {
+    "bytes": 70874,
+    "sha256": "da124e0809cc1782f9977bf1dd05a13d5565f7bb9ba2cf2afc70b199fd034cec"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_bcc3d642d79f423a801eecdf943cbe97.png": {
+    "bytes": 71692,
+    "sha256": "026bede645a99f9e32687ad2507cf89d47b35924bf62ccc256c45553820448e3"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_c663f248919440afa5560e8d45f2f0a7.png": {
+    "bytes": 73410,
+    "sha256": "f990cb4df26fdad5eccbb0f930168e3a4ff7da04348893b3e840b0966cd30f43"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_d51873fc690641a6ba2da2c3f114b2b6.png": {
+    "bytes": 71206,
+    "sha256": "10e0e4ba44dddc62964bc70946dfede3600ee2fcc72d959f1b0555f4e728d6c2"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_d7aa04d5e06c460094d444a6912d86e9.png": {
+    "bytes": 71186,
+    "sha256": "4fe7c85a6ab4f08ea0406bffaea7652981bd245253665dffeaa44e8e3c07aec8"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_e5af788143cd491a8fe59225c1bcf15b.png": {
+    "bytes": 71199,
+    "sha256": "8dc521c768bf24e27fca1677c0bf403de1a0a0798bb2c97b5e3f5012d97b0d44"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_e7f5e661a2af43a7b9ea139832828daa.png": {
+    "bytes": 72097,
+    "sha256": "74e4e40753838d215f506fa9400d1148a2760767e756a93653016dd6c926fd9a"
+  },
+  "project/ros2_gazebo/artifacts/evaluation_scene_f1c480b373784f448892c8c038eb3d9b.png": {
+    "bytes": 70677,
+    "sha256": "9c0189a98429f545e47263b1079a8507dc4c20f082b6bc052e337b8b1d2fd83e"
+  },
+  "project/ros2_gazebo/artifacts/excluded_duplicate/scattered_command_1793173964304094802.json": {
+    "bytes": 9061,
+    "sha256": "344febab5799498ae380e5c6cea0f08a174a4793878c1656305a3c4b241ed350"
+  },
+  "project/ros2_gazebo/artifacts/excluded_duplicate/scattered_command_1793173964304094802.png": {
+    "bytes": 71874,
+    "sha256": "6d7a20e236b070faf0c71d3adc1693dbfed980dde7b2e5d3b1c57bba2538828f"
+  },
+  "project/ros2_gazebo/artifacts/excluded_duplicate/scattered_command_1793173964304311093.json": {
+    "bytes": 9063,
+    "sha256": "60c752cffee9f1617d9ed8e436ad907c031068b2856bc45b33785746816d35f6"
+  },
+  "project/ros2_gazebo/artifacts/excluded_duplicate/scattered_command_1793173964304311093.png": {
+    "bytes": 71874,
+    "sha256": "6d7a20e236b070faf0c71d3adc1693dbfed980dde7b2e5d3b1c57bba2538828f"
+  },
+  "project/ros2_gazebo/artifacts/grasp_envelope.json": {
+    "bytes": 316,
+    "sha256": "a1f7210765666bc939a24ffc547480aa0f4e7b071e8f1dfce42af4025917533b"
+  },
+  "project/ros2_gazebo/artifacts/guards_final.json": {
+    "bytes": 18714,
+    "sha256": "43caad04dbfec1b44b04ef45beaf9d0d2cd71777606da7569cf4ec74c38bd9ac"
+  },
+  "project/ros2_gazebo/artifacts/isolated_evaluation_manifest.json": {
+    "bytes": 1372,
+    "sha256": "c5a711cc4c1d43ee1a683047d7c7ac5219c21c8a0a9c4fbc730df15155c894fe"
+  },
+  "project/ros2_gazebo/artifacts/isolated_guards.json": {
+    "bytes": 18689,
+    "sha256": "3cdaf1e8f672ec52b13b767a33c87e7926bf0823ce298173b6184ad0254251f2"
+  },
+  "project/ros2_gazebo/artifacts/isolated_seed_31_blue_crayon.json": {
+    "bytes": 6422,
+    "sha256": "b31ce672da2e859c67adbd522e542ddf3dfd78b92a792d2a39971582aa130cc7"
+  },
+  "project/ros2_gazebo/artifacts/isolated_seed_31_eraser.json": {
+    "bytes": 6655,
+    "sha256": "263bc26e1ba55faab94dfcf3286f4f264ee1ad1ba1d36827935fc50bdd94775c"
+  },
+  "project/ros2_gazebo/artifacts/isolated_seed_31_red_crayon.json": {
+    "bytes": 6896,
+    "sha256": "b4329ccf0c900a9ed1dd6f6fe19b0dd877e5e9f8e4dd58fae23c6dbf048a1bb0"
+  },
+  "project/ros2_gazebo/artifacts/isolated_seed_73_blue_crayon.json": {
+    "bytes": 7940,
+    "sha256": "f66c0f148948a463cadfaf423cfdcf608c91a42b644fa540d83dd827c7fdd949"
+  },
+  "project/ros2_gazebo/artifacts/isolated_seed_73_eraser.json": {
+    "bytes": 203,
+    "sha256": "5b84a45710f876c6eb054ab5390c49e694c762f0dac5c81dcdc9e00a1756b770"
+  },
+  "project/ros2_gazebo/artifacts/isolated_seed_73_red_crayon.json": {
+    "bytes": 207,
+    "sha256": "1941b38261f059f4ce3f1ee2ee357957ddd070e9c2569541a6aad18eaa56f63f"
+  },
+  "project/ros2_gazebo/artifacts/language_unseen_phrases.json": {
+    "bytes": 3463,
+    "sha256": "38b580c93e65bfc4cf8b26505ee65c5fdf11ccb990147921f400fa27ea936c15"
+  },
+  "project/ros2_gazebo/artifacts/motion.json": {
+    "bytes": 559,
+    "sha256": "48ffa62de528eb7e7b991e6b505218dace6035b7913a15eb793ec896cf8b444c"
+  },
+  "project/ros2_gazebo/artifacts/review_fix_diagnostic.json": {
+    "bytes": 5054,
+    "sha256": "e38eaae2b419cfe4d59f398ec752af4b00ce163b481e7cd4303b2257a6e8271d"
+  },
+  "project/ros2_gazebo/artifacts/review_fix_diagnostic_resume.json": {
+    "bytes": 30087,
+    "sha256": "09fda369bdbdd0c8d9e0a02b8cc37a71376292593fe43379bd958c8f687f0cc0"
+  },
+  "project/ros2_gazebo/artifacts/review_fix_summary.json": {
+    "bytes": 1462,
+    "sha256": "51ed503f34c043964afc6bdc846e95a41c9b71d7d5bff6561dd2d377d4066d87"
+  },
+  "project/ros2_gazebo/artifacts/robustness_summary.json": {
+    "bytes": 5557,
+    "sha256": "235458a8d5945f0445efce76896adb31493d14416dc23d12ded2bc43085256fe"
+  },
+  "project/ros2_gazebo/artifacts/ros_reobservation_demo.json": {
+    "bytes": 1813,
+    "sha256": "ca1fb91438049c845ac474e688e90cb602c06864bb3b3108a677cd5fce42786d"
+  },
+  "project/ros2_gazebo/artifacts/scattered_camera.json": {
+    "bytes": 1015,
+    "sha256": "a098b3216e4e3ae77d66f7facde45b42afec0f36ba8c15b427ed6819c77cca9f"
+  },
+  "project/ros2_gazebo/artifacts/scattered_camera.png": {
+    "bytes": 73825,
+    "sha256": "70091917474c5fe32feb6eaf07c45491d79d126b83299090c4e681d31b63490b"
+  },
+  "project/ros2_gazebo/artifacts/scattered_camera_parked.json": {
+    "bytes": 1004,
+    "sha256": "5d222e449e29db02af500c8d7c7d3807479c7f0b918a5cb0d2dbb2c78f3e7c84"
+  },
+  "project/ros2_gazebo/artifacts/scattered_camera_parked.png": {
+    "bytes": 71873,
+    "sha256": "7956453a02277244225b184d346ec9ed347a1c8506b9cdbe840a56f5e69ead2c"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173597361483173.json": {
+    "bytes": 9035,
+    "sha256": "d4e8270c7d4907a9c47db3b3f19bf0d63b100e187f3b083a2e90fb934ddb94ce"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173597361483173.png": {
+    "bytes": 72280,
+    "sha256": "23481ef4e3f54fc375bbb9045a7fce24b1008012f60a4b3af27cde34ca7a4b2d"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173642602089333.json": {
+    "bytes": 9041,
+    "sha256": "0843538da0e7bb8d100bb43878ca12f7328d43c4e509bd720743ed471dffae08"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173642602089333.png": {
+    "bytes": 71860,
+    "sha256": "4fd0436b4605ef19006541b3027f09e1fc54b03c78356d501a42e164ec20fd2a"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173691469755092.json": {
+    "bytes": 9086,
+    "sha256": "d6588604ab0b008b4d59b17b251409a5f97ce274ec11bed799ed8ed66ecdcb08"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173691469755092.png": {
+    "bytes": 72154,
+    "sha256": "a436c5848b70c1e09e9ae0e09a32fb74e0a007371712b9c9cb4af7f39416736b"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173737830590377.json": {
+    "bytes": 9076,
+    "sha256": "fb88007457516a2e4be85788b68235593fdf81f44051e97a323a52e122195332"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173737830590377.png": {
+    "bytes": 71738,
+    "sha256": "6770dfedafddf79f32c41b77d9eb2dec81c2733de0494c1e213e6e1cd51ad5af"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173783246659843.json": {
+    "bytes": 9117,
+    "sha256": "45a239c2a74428f457c5ae6bfdfa0eb18b1284d1ad3e3cdcf57e99aa782520b0"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173783246659843.png": {
+    "bytes": 71869,
+    "sha256": "b0ab7fe394d799bb1beb447ab83ea4f86ee722b5585746a8a8bed7a1b79d411f"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173828775673378.json": {
+    "bytes": 9114,
+    "sha256": "42ccbe4cfb9ec8ccd3fd9d2f8beebed7623858d7417927c77b84f3a1ba81d911"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793173828775673378.png": {
+    "bytes": 71697,
+    "sha256": "ca88184693e14e13150f13e278b8a51fb7db397344b09bd6f1a373411c5930f9"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793174111195016467.json": {
+    "bytes": 9006,
+    "sha256": "fd3c1f41a660d9c4c69aea20eb7d17f4e4fb7ab9a607e7a745cb0991153aa9cf"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793174111195016467.png": {
+    "bytes": 72054,
+    "sha256": "89cccbe2d43df886e3d7c3df277bb06c2bd77412027c94f89169c75a37c6c40c"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793174156574780085.json": {
+    "bytes": 9058,
+    "sha256": "261badb8e966dc1d83c4a7f6082fcb7be550a673f5fc14f5871af75a6c713e9d"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793174156574780085.png": {
+    "bytes": 71935,
+    "sha256": "c5b1106a9023cbc8cca317df8ea3f949a204dbd0c35069b011245bbc578a2ad7"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242123335840045.json": {
+    "bytes": 9080,
+    "sha256": "f532e330a8b34c3adfe8906d7af9ec0f1db0ef94d771641e91353a841b1948f7"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242123335840045.png": {
+    "bytes": 71666,
+    "sha256": "f201809fa4470d9828641c60a6bebe369f26a712bfe1d1eade0afbd53223e6d2"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242173890549097.json": {
+    "bytes": 9163,
+    "sha256": "80d9ccfe4fecab64ef2260449941ce14c9e72e30abade6149bd92760fd4aa1a3"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242173890549097.png": {
+    "bytes": 72215,
+    "sha256": "f000b44a9fc55cddcdb1edf4d67c6b92cd3e37ff5f3c8d5dd0ab51095d4dbb19"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242801463760012.json": {
+    "bytes": 9088,
+    "sha256": "6ab59455a7212687da1922cc886e9338c50027b7b4e257ec67858c804ec8cc40"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242801463760012.png": {
+    "bytes": 72471,
+    "sha256": "56264514262fc21b4b0922dabdcd46d2181b53a7aff5aac6703ab9bc397af2f3"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242863319348388.json": {
+    "bytes": 9133,
+    "sha256": "282d158ed4751e08d20ac7a530d57a7e5dd6421284b0a58b952c7c7ad7e0b3c3"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793242863319348388.png": {
+    "bytes": 72566,
+    "sha256": "bbffeb7a59b10db513fb513fead8de79c735206b63c2fdd317959002394d2e82"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793243167208304751.json": {
+    "bytes": 9079,
+    "sha256": "23e9be7b3ab32132833421bc2ee26832f40a785349d43f8cde273c8c4d9d48de"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793243167208304751.png": {
+    "bytes": 72952,
+    "sha256": "8ece50d4d425c748303ff31babbe9f3040db99b5df7eed7a23a6e0a1414a6f53"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793243240297763715.json": {
+    "bytes": 9067,
+    "sha256": "fa3e8e135dee7e985cd3fdbb3c98999e1f18ba9b3125b738a2342cce2c545d16"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793243240297763715.png": {
+    "bytes": 72661,
+    "sha256": "dbd314642a247a683474a1e2af72f62c1b51655a95e18eea5d3af8376f6ea5cb"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793243293251973004.json": {
+    "bytes": 9100,
+    "sha256": "1b37d10dbe5d28b5a632d027cf1b4f4e3f9a0dbe896a69f651cb47e157f1ca03"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793243293251973004.png": {
+    "bytes": 72764,
+    "sha256": "d3f4061db04030133b28b84cb3919e1fba1cb4f06564a4f08e117820d726ceee"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244111682268132.json": {
+    "bytes": 808240,
+    "sha256": "3f4aae2cdb579e1c18d236583f3753fb5e080904f7f861938aaeddfcdfd728a8"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244111682268132.png": {
+    "bytes": 72136,
+    "sha256": "8ef1fc4bf3660c7dfd8b202c26bdcbc01d727b1384b1552d29c85e34242a91fa"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244255851076880.json": {
+    "bytes": 774593,
+    "sha256": "0240cfa363cd87605bad9f8f2f0f6c20a5a909bc5494dfa26241f43ced3ef8b2"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244255851076880.png": {
+    "bytes": 72419,
+    "sha256": "99f9c0ec29e3508493ecd48fbcb5ab3a20b0856602587e0efb293b5d61a40155"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244308910441626.json": {
+    "bytes": 770971,
+    "sha256": "80a0cc53486108309c7fac0bfce5be19b4e89c7520600f0ec00906c120197fd1"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244308910441626.png": {
+    "bytes": 72133,
+    "sha256": "bdaad3493722d417a5f176c536012222fbbd1d1a07e9b70cc5cd41b51a24f625"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244602320649137.json": {
+    "bytes": 874393,
+    "sha256": "3a1e96adedba54a9a2d142cec2dd566b576e487684b7049eb7ec45f69e3b4125"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244602320649137.png": {
+    "bytes": 72257,
+    "sha256": "6fe0e15f75739401f828ec2d626a69a607e49e273158b9c19a690bf47c78894e"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244649258987715.json": {
+    "bytes": 879230,
+    "sha256": "b3c7342c973f90ae5f637d4bc2dd4c2ff6dbb21f78681b709999dc3a1eb17acb"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244649258987715.png": {
+    "bytes": 71832,
+    "sha256": "4fb8a71e42680bd82e58137190fae668ba1f833c712b3f62e0cd509998a72f56"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244712176872049.json": {
+    "bytes": 871068,
+    "sha256": "8d4ae1333b77af6e81df7b4c56b3c260ad549f2eee62e10a68319474066bbb39"
+  },
+  "project/ros2_gazebo/artifacts/scattered_command_1793244712176872049.png": {
+    "bytes": 72031,
+    "sha256": "361b91d382a3390ab27fbe1d7e5e00842ad2843713b7b205091af67e62b8fa88"
+  },
+  "project/ros2_gazebo/artifacts/scattered_commands_seed7.json": {
+    "bytes": 12880,
+    "sha256": "668dc0a8930b26a37cebc7493d5df450e2a5dee36ab210b82afc52b00efc6872"
+  },
+  "project/ros2_gazebo/artifacts/scattered_commands_trial1.json": {
+    "bytes": 2993,
+    "sha256": "725131b0255781e256686efed457c0ceb7a7de5fe0be6b58d79e18661dfdbb7d"
+  },
+  "project/ros2_gazebo/artifacts/scattered_commands_user_return.json": {
+    "bytes": 5333,
+    "sha256": "e15a3171180b047f9e8376d9f6bbb3bd8e3931c05e7cce9feaebef1d21d6b02e"
+  },
+  "project/ros2_gazebo/artifacts/scattered_failure_1793173981833777087.json": {
+    "bytes": 2552,
+    "sha256": "2877c8b65877bc94503d9fb3304082b1f3fa9bc04b4294fc8df317af59ebe3fc"
+  },
+  "project/ros2_gazebo/artifacts/scattered_failure_1793173981833870712.json": {
+    "bytes": 2554,
+    "sha256": "ffc1ff555721a551d99fe32603b565d28924acf41aeebf249aafa4407cae9694"
+  },
+  "project/ros2_gazebo/artifacts/scattered_failure_1793242198710409178.json": {
+    "bytes": 3625,
+    "sha256": "cd20bd222f1bdc5bcdf06ac17014fc20cafaef09ae82648d3432b0a6bd0bb337"
+  },
+  "project/ros2_gazebo/artifacts/scattered_failure_1793242341593875674.json": {
+    "bytes": 3634,
+    "sha256": "da8af710be86306ca24969b3695777ef22f262af3f438f15d45ffa70f87e6822"
+  },
+  "project/ros2_gazebo/artifacts/scattered_failure_1793242579558114382.json": {
+    "bytes": 3628,
+    "sha256": "084c9cc2de3320a5c539582155fdd5837dbeff01d602294ac7f5392e7438c45c"
+  },
+  "project/ros2_gazebo/artifacts/scattered_failure_1793242964912321129.json": {
+    "bytes": 4167,
+    "sha256": "c9c1f2a5d5b7dddb3ec271dac87f1b0b4954c3a63f611dd89a6d0c31e23af8d8"
+  },
+  "project/ros2_gazebo/artifacts/scattered_perception_check.json": {
+    "bytes": 437,
+    "sha256": "c3270443fe98a33ee4842f3514e34ba843edad75f4c7e0b420ab2776ee82c4a9"
+  },
+  "project/ros2_gazebo/artifacts/scattered_robustness_trial1.json": {
+    "bytes": 14150,
+    "sha256": "17001d7295aea90ac1b421d9649cb343de1f11afbbcf70017cd5e0750b3920bf"
+  },
+  "project/ros2_gazebo/artifacts/scattered_robustness_trial2.json": {
+    "bytes": 7473,
+    "sha256": "21191024e2db11aef620aea3c892f66da3441417ad89d99741179db336097016"
+  },
+  "project/ros2_gazebo/artifacts/scattered_robustness_trial3.json": {
+    "bytes": 7580,
+    "sha256": "a9b8019e4998da3a970159d6adfc366de45b2e5aa31c5a4e83056f4e16caf26f"
+  },
+  "project/ros2_gazebo/artifacts/scattered_summary.json": {
+    "bytes": 3863,
+    "sha256": "ed652f7479677c17b356b3d98cacadd382a02256fe1cd8474786764912318e04"
+  },
+  "project/ros2_gazebo/artifacts/seed73_startup_retry.json": {
+    "bytes": 13060,
+    "sha256": "41aa750ef8d6c59eae226d5d6473ff63b6cb32d3659d81d14feaf38ad84b200d"
+  },
+  "project/ros2_gazebo/artifacts/so101_commands.json": {
+    "bytes": 5270,
+    "sha256": "794d53b38f9403a0a33158b5c57d129a491d49db638df58e4a9b9c20a0defa02"
+  },
+  "project/ros2_gazebo/artifacts/so101_commands_summary.json": {
+    "bytes": 362,
+    "sha256": "ada6c5d144192778d74ee30c62404460a71e28e295ee2dad56a22ca4375daf6f"
+  },
+  "project/ros2_gazebo/artifacts/so101_last_command.json": {
+    "bytes": 5619,
+    "sha256": "cc8c2f544e646990995fa9bd6c3fc7920423f1f69d69f872f598dee414910dca"
+  },
+  "project/ros2_gazebo/artifacts/so101_motion.json": {
+    "bytes": 1064,
+    "sha256": "591b5491abf7ee953768671157148100a155d9b07af4ca2a2daf4171efa3d044"
+  },
+  "project/ros2_gazebo/artifacts/so101_pick.json": {
+    "bytes": 5568,
+    "sha256": "e99fbe61ffb32ec1d2e927453e7efafb78b6a45d43076a97bc7d737b85b63565"
+  },
+  "project/ros2_gazebo/artifacts/so101_pick_success1.json": {
+    "bytes": 5562,
+    "sha256": "8e580e017a70f2d6ba07314d9fbd02198011dde70171f96ab3e1fcb94c582627"
+  },
+  "project/ros2_gazebo/artifacts/so101_pick_summary.json": {
+    "bytes": 441,
+    "sha256": "d865bc6b65f0720e32aef764ccd9f338043d0102909421342218cccf48ddd8c5"
+  },
+  "project/ros2_gazebo/artifacts/so101_pick_trial1.json": {
+    "bytes": 1631,
+    "sha256": "a45e9b9bf4abe38a9cf15d513ebe17521ee0b69232aec346d2c23ce5c5459fc5"
+  },
+  "project/ros2_gazebo/artifacts/so101_pick_trial2.json": {
+    "bytes": 1634,
+    "sha256": "970b101ed0817e0c8a5946ad89a4ddec160a0a6f3ec0ba244267cacb00d62148"
+  },
+  "project/ros2_gazebo/artifacts/user_return_fixture.json": {
+    "bytes": 1617,
+    "sha256": "2644da4de2660d5e0c7a3b9ecc9ef686876be5f02c8704207981fc92f26b61b2"
+  },
+  "project/ros2_gazebo/compose.yaml": {
+    "bytes": 418,
+    "sha256": "4a2460ac389997fa08714bca5467d65269eb352accecdd9f5b91133f810e5c00"
+  },
+  "project/ros2_gazebo/scripts/launch_material_server.bash": {
+    "bytes": 192,
+    "sha256": "848d2dc4394e1666160597925e39eaf80714069176ed7f893a8e38a4bde3bd44"
+  },
+  "project/ros2_gazebo/scripts/launch_scattered.bash": {
+    "bytes": 141,
+    "sha256": "6395bf1bb7b7fa42c2bace4264087eaf251e0c7229132a8b66572440b5f21647"
+  },
+  "project/ros2_gazebo/scripts/launch_scattered_server.bash": {
+    "bytes": 194,
+    "sha256": "3d4c85905869b8eee58dcbefcfd071ae4ee97512c71bc89604ae793ef442c320"
+  },
+  "project/ros2_gazebo/scripts/launch_so101.bash": {
+    "bytes": 227,
+    "sha256": "4ae9b25a58d09ca4ef9ca52e3bd051413967fabf866bd5007e3efaf896b4ec79"
+  },
+  "project/ros2_gazebo/scripts/launch_so101_gui.bash": {
+    "bytes": 286,
+    "sha256": "e4ef45bca5fabe8962f55aa0780054c5db51acdcf9021a41cae67b088425851e"
+  },
+  "project/ros2_gazebo/scripts/launch_so101_pick.bash": {
+    "bytes": 136,
+    "sha256": "c3f21b6ef9b8b00c432bc4c1788bf9ed5b848e7461a824c1f1b238045651acd4"
+  },
+  "project/ros2_gazebo/scripts/record_so101_pick.bash": {
+    "bytes": 663,
+    "sha256": "aab2486e450a8f1b6ee7b06ae218ae2aab0cbfd2e9114306097bc71cd4dc15ec"
+  },
+  "project/ros2_gazebo/so101/camera_observation.py": {
+    "bytes": 3847,
+    "sha256": "fd5268b6571602318c1650f4d8d19834c393f7e7dd1d1ebf3573780acca972bc"
+  },
+  "project/ros2_gazebo/so101/check_grasp_envelope.py": {
+    "bytes": 1326,
+    "sha256": "f488d3aa50acfa405903282b5485601a280497843e997bc05bbfa72022fea45f"
+  },
+  "project/ros2_gazebo/so101/check_language_selection.py": {
+    "bytes": 1629,
+    "sha256": "7390ed78419b4e69cadf9742028c771e6dc76aecd4b26d1ca4703e41b139048e"
+  },
+  "project/ros2_gazebo/so101/check_motion.py": {
+    "bytes": 2427,
+    "sha256": "c891b98fa9b5f024125e2bf0b8760e71e8169f2b965c56e4f9b5ceb9cbcf8e1f"
+  },
+  "project/ros2_gazebo/so101/check_perception.py": {
+    "bytes": 1593,
+    "sha256": "d91544ac90d8f0914fcc3b8ab187ab20975dee695bb644b0647d6174efab971f"
+  },
+  "project/ros2_gazebo/so101/check_scattered_commands.py": {
+    "bytes": 1869,
+    "sha256": "16efd25a53def9583634ae9f2ef2c38eee563d99822824ca043d560ec377139e"
+  },
+  "project/ros2_gazebo/so101/config/controllers.yaml": {
+    "bytes": 657,
+    "sha256": "d9daade66a9f036a0569a268c516427dc4c882939949f0fdfd70273c780a7972"
+  },
+  "project/ros2_gazebo/so101/controller_lease.py": {
+    "bytes": 465,
+    "sha256": "63babedaaab66edaaab380aca3c7b2702a3427356051f9d509ca26c048741c56"
+  },
+  "project/ros2_gazebo/so101/emulate_user_return.py": {
+    "bytes": 2080,
+    "sha256": "34b5767e5d9cad24f6307de19ccc9d3ef8a56aaf776818b3c39d599608d99089"
+  },
+  "project/ros2_gazebo/so101/evaluate_scattered.py": {
+    "bytes": 8788,
+    "sha256": "c4b3874511d1f1ede588791ee1b8132e9a4520797aa601ac731bf95d72746e12"
+  },
+  "project/ros2_gazebo/so101/gui.config": {
+    "bytes": 9332,
+    "sha256": "3af427aea65a7262ce108ebfcc1889fcc15b83be78629ae502fc6700fc815f16"
+  },
+  "project/ros2_gazebo/so101/kinematics.py": {
+    "bytes": 2556,
+    "sha256": "6219addc6feb2c35fe01bac33dda959f8d510177b498d72a081ce44f662fd98f"
+  },
+  "project/ros2_gazebo/so101/make_description.py": {
+    "bytes": 2909,
+    "sha256": "0a470344e1a6fd75a9ef204e034158b669792309be89920e65151d2018fcf85b"
+  },
+  "project/ros2_gazebo/so101/make_scattered_world.py": {
+    "bytes": 3753,
+    "sha256": "9b6087d1b530f21f3b7dc7290e09992bd627601a855315f0c8c78f1f590122e1"
+  },
+  "project/ros2_gazebo/so101/motion_backend.py": {
+    "bytes": 7074,
+    "sha256": "f13e7154879d825837547dbb636332d56c1afd7a4c5244d859adb62934648467"
+  },
+  "project/ros2_gazebo/so101/pick_material.py": {
+    "bytes": 834,
+    "sha256": "cbf0c36a3430cd11d52349d4f7b8710e4e6c345b72b2f2b7f7edd160456f45ac"
+  },
+  "project/ros2_gazebo/so101/record_ros_demo.py": {
+    "bytes": 4763,
+    "sha256": "fa163becec134f79126c3ba041407c4a5ad6a1e314da96787b8bf2b321049d97"
+  },
+  "project/ros2_gazebo/so101/run_isolated_evaluation.py": {
+    "bytes": 2314,
+    "sha256": "8477b26e8dd3ff3fdf02ec459883ce04eeb7fb3106a55f6bd08a201d43deb47f"
+  },
+  "project/ros2_gazebo/so101/scattered_task_server.py": {
+    "bytes": 6917,
+    "sha256": "703b371c4f6c5c7e8048f2c6da13662fe91ca6aca7b0fd8e22554112e9c3449f"
+  },
+  "project/ros2_gazebo/so101/so101.launch.py": {
+    "bytes": 1727,
+    "sha256": "137cacb911ccb9fd2d577552022a502b521929f3aa7cd6b8dcf0e70c6c460498"
+  },
+  "project/ros2_gazebo/so101/summarize_robustness.py": {
+    "bytes": 2712,
+    "sha256": "3b8024efebeb0da9e55467f895509b1ee140f438644436a59bae9ae04a7cfa6f"
+  },
+  "project/ros2_gazebo/so101/task_server.py": {
+    "bytes": 4036,
+    "sha256": "f105c163449a9da8bfa9aa3fc8453c385edc5cdc21f9ffa29cb6e0d9bd4801ab"
+  },
+  "project/ros2_gazebo/so101/test_commands.py": {
+    "bytes": 2100,
+    "sha256": "0f040e31f99a065a72c5b7cbec930569b040c44a0be2b633290308ec6fc47299"
+  },
+  "project/ros2_gazebo/so101/vendor/LICENSE": {
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "project/ros2_gazebo/so101/vendor/SOURCE.json": {
+    "bytes": 221,
+    "sha256": "c6b91a766d38b4b236033e1c8d1b774b53084b0281103341761eb7eff35f84f8"
+  },
+  "project/ros2_gazebo/so101/vendor/UPSTREAM_README.md": {
+    "bytes": 2408,
+    "sha256": "c6df213e471e4573ba6384cb957e9eee9644f5d671272f98f67d28866333f747"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/Handle_SO101.stl": {
+    "bytes": 472684,
+    "sha256": "a69b004691392cf0130b32ed9da5cc0c5fee49c2c8abee6ca27bf88e2a11347d"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/Trigger_SO101.stl": {
+    "bytes": 1411784,
+    "sha256": "7122e0c476e69689eaf18441ecd36f5cf5cdca4d7033c15e5238a9b788e9d71a"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/Wrist_Roll_SO101.stl": {
+    "bytes": 695884,
+    "sha256": "db20e6ac7c08cf8d75692a38db5a217011c97c0ab5d73c248296535df81e39b7"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/base_motor_holder_so101_v1.part": {
+    "bytes": 443,
+    "sha256": "3fc04275864139676a50041a322caf8807a063c0d6e73e7f74aa136eb8368df9"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/base_motor_holder_so101_v1.stl": {
+    "bytes": 1877084,
+    "sha256": "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/base_so101_v2.part": {
+    "bytes": 430,
+    "sha256": "6c611cca00540c8f1aef67b1caba15e6674d5a1380eb51aa9c9216c6bfda37ac"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/base_so101_v2.stl": {
+    "bytes": 471584,
+    "sha256": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/motor_holder_so101_base_v1.part": {
+    "bytes": 443,
+    "sha256": "1b4035c9fec35cd43ef5ecf74ad84827c45eed184b2194fe0a0f70ec42e464d7"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/motor_holder_so101_base_v1.stl": {
+    "bytes": 1129384,
+    "sha256": "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/motor_holder_so101_wrist_v1.part": {
+    "bytes": 444,
+    "sha256": "4ee9c4242bb7dec967ae1555e934995b5fe2fb9373af6db4741301b73082d4d6"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/motor_holder_so101_wrist_v1.stl": {
+    "bytes": 1052184,
+    "sha256": "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/moving_jaw_so101_v1.part": {
+    "bytes": 436,
+    "sha256": "97f6cefdce9495f86924ffb57f00f2cad8f8d5381e14f1932d6a51d00df1081e"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/moving_jaw_so101_v1.stl": {
+    "bytes": 1413584,
+    "sha256": "785a9dded2f474bc1d869e0d3dae398a3dcd9c0c345640040472210d2861fa9d"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/rotation_pitch_so101_v1.part": {
+    "bytes": 440,
+    "sha256": "0b7b24211a542555168d0a415ff4f05e6a4a9803045e8e31ffe1984fc3135e91"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/rotation_pitch_so101_v1.stl": {
+    "bytes": 883684,
+    "sha256": "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/sts3215_03a_no_horn_v1.part": {
+    "bytes": 439,
+    "sha256": "fdb32d86e6127a8f7642dd82dac283a0e7d2b45d5df537d003daa642c15e0ffa"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/sts3215_03a_no_horn_v1.stl": {
+    "bytes": 865884,
+    "sha256": "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/sts3215_03a_v1.part": {
+    "bytes": 431,
+    "sha256": "82eed501939906901c5bab37f01ba428bcab39856d244f9bd6fe07f441ceb0e0"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/sts3215_03a_v1.stl": {
+    "bytes": 954084,
+    "sha256": "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/under_arm_so101_v1.part": {
+    "bytes": 435,
+    "sha256": "352adb8567f41a1fa517d0f0e8960749691a1d7079af73f15f1072c838c69709"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/under_arm_so101_v1.stl": {
+    "bytes": 1975884,
+    "sha256": "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/upper_arm_so101_v1.part": {
+    "bytes": 435,
+    "sha256": "63541673e4b9662974a8b148ea077a9067898a316d8c29aade06b20e22b05cb1"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/upper_arm_so101_v1.stl": {
+    "bytes": 1303484,
+    "sha256": "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/waveshare_mounting_plate_so101_v2.part": {
+    "bytes": 450,
+    "sha256": "4a616d2126b70d46a939460ead1bbaf235aa1775672b35dd3e210811e6aa7dfb"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/waveshare_mounting_plate_so101_v2.stl": {
+    "bytes": 62784,
+    "sha256": "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/wrist_camera_mount_so101_v1.stl": {
+    "bytes": 173884,
+    "sha256": "e17a626158951ac8cdf8d960962c1a3c8bf23b64635a02f88b62016fe895cef8"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/wrist_camera_so101_v1.stl": {
+    "bytes": 128934,
+    "sha256": "1147857bb136876c81f98d18b533342bae2383f0e23bec216064c9f093bd3577"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/wrist_roll_follower_so101_v1.part": {
+    "bytes": 445,
+    "sha256": "93d674dfca5e566d1b033676f1fc50b4f0cc22e564a82ad7895f3dfd66b68848"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/wrist_roll_follower_so101_v1.stl": {
+    "bytes": 1439884,
+    "sha256": "4b17b410a12d64ec39554abc3e8054d8a97384b2dc4a8d95a5ecb2a93670f5f4"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/wrist_roll_pitch_so101_v2.part": {
+    "bytes": 442,
+    "sha256": "e9ba6151922dfc8312a54c73ae19224c0b16b863595e0eba86081eaf676ed376"
+  },
+  "project/ros2_gazebo/so101/vendor/assets/wrist_roll_pitch_so101_v2.stl": {
+    "bytes": 2699784,
+    "sha256": "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae"
+  },
+  "project/ros2_gazebo/so101/vendor/so101_new_calib.urdf": {
+    "bytes": 16231,
+    "sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c"
+  },
+  "project/ros2_gazebo/worlds/so101_pick.sdf": {
+    "bytes": 3723,
+    "sha256": "9ccce3f760e42c82113d458f0b004c8437a719516162c7ffddd50633e3c6f48c"
+  },
+  "project/ros2_gazebo/worlds/so101_scattered.sdf": {
+    "bytes": 7942,
+    "sha256": "7f12682cbaa84e1fa8ded7bb29edfdefc27fc8cbb4bdd8577dca13c066fd2ea1"
+  },
+  "project/ros2_gazebo/worlds/so101_scattered.sdf.json": {
+    "bytes": 1260,
+    "sha256": "74aafc91d9f81190dee10c2cd35d7fad8f0b98006085df8dc0c982bc0b26a242"
+  },
+  "project/ros2_gazebo/worlds/table_local.sdf": {
+    "bytes": 1848,
+    "sha256": "17b72f7994ff4c54d2868b1309d7950fc521517b01b939b64cbef759c33f3062"
+  },
+  "report/REVIEW_FIX_RESULTS.md": {
+    "bytes": 4714,
+    "sha256": "b358f255567a4591adeceee0fc9df32f61518400b5c5c40ecca992ca84379a6e"
+  },
+  "report/ROBUSTNESS_RESULTS.md": {
+    "bytes": 5250,
+    "sha256": "e3e90b64d545f533e91c4a65afaa7be8a1f4bb540b802ec35337b166c8c1c480"
+  },
+  "report/SUBMISSION_DRAFT.md": {
+    "bytes": 6378,
+    "sha256": "737197621695c407bca88c2f9d93278cdf902247e8b99fb6115ed4c23eea20a0"
+  }
+}

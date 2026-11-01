@@ -1,0 +1,130 @@
+{
+  "training_examples": 216,
+  "classes": 12,
+  "training_steps": 1200,
+  "learning_rate": 0.7,
+  "l2": 0.0001,
+  "scope": "material selection only; some phrasing may still need operation clarification",
+  "results": [
+    {
+      "text": "青いクレヨンを手元まで持ってきて",
+      "expected": "blue_crayon",
+      "result": {
+        "status": "selected",
+        "target": "blue_crayon",
+        "confidence": 0.7016841321832925,
+        "text": "青いクレヨンを手元まで持ってきて"
+      },
+      "passed": true
+    },
+    {
+      "text": "赤色のクレヨンをいま使いたい",
+      "expected": "red_crayon",
+      "result": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.6950446391767887,
+        "text": "赤色のクレヨンをいま使いたい"
+      },
+      "passed": true
+    },
+    {
+      "text": "消しゴムをこちらにお願いします",
+      "expected": "eraser",
+      "result": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9639335073055275,
+        "text": "消しゴムをこちらにお願いします"
+      },
+      "passed": true
+    },
+    {
+      "text": "青のクレヨンが必要です",
+      "expected": "blue_crayon",
+      "result": {
+        "status": "selected",
+        "target": "blue_crayon",
+        "confidence": 0.8496186796245498,
+        "text": "青のクレヨンが必要です"
+      },
+      "passed": true
+    },
+    {
+      "text": "けしごむを手元に置いてください",
+      "expected": "eraser",
+      "result": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.8601258714028421,
+        "text": "けしごむを手元に置いてください"
+      },
+      "passed": true
+    },
+    {
+      "text": "赤のクレヨンを選びたい",
+      "expected": "red_crayon",
+      "result": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.8376468693775682,
+        "text": "赤のクレヨンを選びたい"
+      },
+      "passed": true
+    },
+    {
+      "text": "赤を手元に",
+      "expected": null,
+      "result": {
+        "status": "clarify",
+        "candidates": [
+          "red_crayon",
+          "red_colored_pencil"
+        ],
+        "text": "赤を手元に",
+        "reason": "ambiguous or unavailable"
+      },
+      "passed": true
+    },
+    {
+      "text": "クレヨンをください",
+      "expected": null,
+      "result": {
+        "status": "clarify",
+        "candidates": [
+          "red_crayon",
+          "blue_crayon",
+          "yellow_crayon",
+          "green_crayon",
+          "black_crayon"
+        ],
+        "text": "クレヨンをください",
+        "reason": "ambiguous or unavailable"
+      },
+      "passed": true
+    },
+    {
+      "text": "紫のクレヨンを持ってきて",
+      "expected": null,
+      "result": {
+        "status": "clarify",
+        "candidates": [],
+        "text": "紫のクレヨンを持ってきて",
+        "reason": "unsupported color"
+      },
+      "passed": true
+    },
+    {
+      "text": "消しゴムと青いクレヨンを持ってきて",
+      "expected": null,
+      "result": {
+        "status": "clarify",
+        "candidates": [],
+        "text": "消しゴムと青いクレヨンを持ってきて",
+        "reason": "specify one material"
+      },
+      "passed": true
+    }
+  ],
+  "passed": 10
+}

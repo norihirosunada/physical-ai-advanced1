@@ -1,0 +1,113 @@
+{
+  "scope": "One seeded separated three-box scene plus one user-return fixture, not a general success rate",
+  "validated_post_fix_transfers": 8,
+  "groups": {
+    "initial_three_material_fetch_return": 6,
+    "user_reposition_fetch_return": 2
+  },
+  "initial_failed_trial": "scattered_commands_trial1.json",
+  "excluded_duplicate_artifacts": [
+    "scattered_command_1793173964304094802.json",
+    "scattered_command_1793173964304311093.json"
+  ],
+  "reobserved_position_change_mm": 30.528959284720052,
+  "visual_method": "calibrated color segmentation, rectangle fit and PCA; learned model only for Japanese material selection",
+  "results": [
+    {
+      "case_group": "scattered_commands_seed7.json",
+      "text": "消しゴムを持ってきて",
+      "artifact": "scattered_command_1793173597361483173.json",
+      "lift_mm": 61.98447079508873,
+      "placement_error_mm": 1.0676152050557577,
+      "perception_error_mm": 0.7586005491377187,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_seed7.json",
+      "text": "消しゴムを戻して",
+      "artifact": "scattered_command_1793173642602089333.json",
+      "lift_mm": 61.98367680268713,
+      "placement_error_mm": 2.395112634761362,
+      "perception_error_mm": 2.375115779938459,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_seed7.json",
+      "text": "青いクレヨンを持ってきて",
+      "artifact": "scattered_command_1793173691469755092.json",
+      "lift_mm": 62.25824864620111,
+      "placement_error_mm": 2.4758815248943122,
+      "perception_error_mm": 0.8541222170709183,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_seed7.json",
+      "text": "青いクレヨンを戻して",
+      "artifact": "scattered_command_1793173737830590377.json",
+      "lift_mm": 61.899575263090426,
+      "placement_error_mm": 2.101451273915658,
+      "perception_error_mm": 2.2657797687725894,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_seed7.json",
+      "text": "赤いクレヨンを持ってきて",
+      "artifact": "scattered_command_1793173783246659843.json",
+      "lift_mm": 61.93936039832937,
+      "placement_error_mm": 1.9839336521448983,
+      "perception_error_mm": 0.16282673135026168,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_seed7.json",
+      "text": "赤いクレヨンを戻して",
+      "artifact": "scattered_command_1793173828775673378.json",
+      "lift_mm": 62.243836594716214,
+      "placement_error_mm": 3.34832357596043,
+      "perception_error_mm": 2.25655876018974,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_user_return.json",
+      "text": "消しゴムを持ってきて",
+      "artifact": "scattered_command_1793174111195016467.json",
+      "lift_mm": 62.09000183815849,
+      "placement_error_mm": 1.646459482119762,
+      "perception_error_mm": 1.2406032934313571,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      }
+    },
+    {
+      "case_group": "scattered_commands_user_return.json",
+      "text": "消しゴムを戻して",
+      "artifact": "scattered_command_1793174156574780085.json",
+      "lift_mm": 62.31697392759394,
+      "placement_error_mm": 2.491534194162142,
+      "perception_error_mm": 2.4263927945684456,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      }
+    }
+  ]
+}

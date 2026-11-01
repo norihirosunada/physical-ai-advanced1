@@ -1,0 +1,177 @@
+{
+  "measurement_complete": true,
+  "scope": "Three predefined separated box layouts, one fetch per material; not a general success rate",
+  "startup_only_timeouts": [
+    "isolated_seed_73_eraser.json",
+    "isolated_seed_73_red_crayon.json"
+  ],
+  "physical_cases": 9,
+  "physical_successes": 7,
+  "failures": [
+    {
+      "case": "seed_19_blue_crayon",
+      "reason": "object did not lift by 35mm",
+      "source": "d63b3fddef87462e9a9664653ccb9ad9"
+    },
+    {
+      "case": "seed_31_blue_crayon",
+      "reason": "ROS feedback timeout",
+      "source": "c787ad70318a4c0aac3b3f73d00183da"
+    }
+  ],
+  "control": "Original validated control restored: close=-0.15rad, duration=2s, no width bias",
+  "guards": [
+    {
+      "case": "close_spacing",
+      "passed": true,
+      "phase": "blocked",
+      "nonpark_arm_messages": 0,
+      "gripper_messages": 0
+    },
+    {
+      "case": "target_outside_roi",
+      "passed": true,
+      "phase": "not_detected",
+      "nonpark_arm_messages": 0,
+      "gripper_messages": 0
+    },
+    {
+      "case": "destination_occupied",
+      "passed": true,
+      "phase": "blocked",
+      "nonpark_arm_messages": 0,
+      "gripper_messages": 0
+    },
+    {
+      "case": "target_occluded",
+      "passed": true,
+      "phase": "not_detected",
+      "nonpark_arm_messages": 0,
+      "gripper_messages": 0
+    }
+  ],
+  "failed_tuning": [
+    "gentler closing alone did not resolve seed19 blue failure",
+    "gentler closing plus width-based 2mm bias did not resolve it; both reverted"
+  ],
+  "initial_evaluator_note": "trial1 before fields may be stale; physical outcomes come from task-server feedback and trace; later evaluator waits for fresh poses",
+  "cases": [
+    {
+      "case": "seed_19_eraser",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 1.2458581526985655,
+      "max_other_displacement_m": null,
+      "wall_seconds": 48.72066864697263,
+      "sim_seconds": 41.07499999999709,
+      "artifact": "/workspace/artifacts/scattered_command_1793242123335840045.json",
+      "image": null
+    },
+    {
+      "case": "seed_19_red_crayon",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 2.84181322943566,
+      "max_other_displacement_m": null,
+      "wall_seconds": 47.02022310497705,
+      "sim_seconds": 40.950000000004366,
+      "artifact": "/workspace/artifacts/scattered_command_1793242173890549097.json",
+      "image": null
+    },
+    {
+      "case": "seed_19_blue_crayon",
+      "passed": false,
+      "phase": "error",
+      "xy_error_mm": null,
+      "max_other_displacement_m": null,
+      "wall_seconds": 21.22474263503682,
+      "sim_seconds": 18.65400000000227,
+      "artifact": null,
+      "image": null
+    },
+    {
+      "case": "seed_31_eraser",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 1.3053048327826042,
+      "max_other_displacement_m": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "wall_seconds": 49.91912210598821,
+      "sim_seconds": 43.464,
+      "artifact": "/workspace/artifacts/scattered_command_1793242801463760012.json",
+      "image": "/workspace/artifacts/evaluation_scene_e7f5e661a2af43a7b9ea139832828daa.png"
+    },
+    {
+      "case": "seed_31_red_crayon",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 2.0721443668594466,
+      "max_other_displacement_m": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "wall_seconds": 47.20147039700532,
+      "sim_seconds": 41.014999999999986,
+      "artifact": "/workspace/artifacts/scattered_command_1793242863319348388.json",
+      "image": "/workspace/artifacts/evaluation_scene_831774357d49433d9f910dfe4d011e43.png"
+    },
+    {
+      "case": "seed_31_blue_crayon",
+      "passed": false,
+      "phase": "error",
+      "xy_error_mm": null,
+      "max_other_displacement_m": {
+        "eraser": 0.0,
+        "red_crayon": 0.04070865155598714
+      },
+      "wall_seconds": 87.07107537297998,
+      "sim_seconds": 75.63400000000001,
+      "artifact": null,
+      "image": "/workspace/artifacts/evaluation_scene_6d44570a1e244340ad07cc45af80f26e.png"
+    },
+    {
+      "case": "seed_73_blue_crayon",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 2.6121462683276806,
+      "max_other_displacement_m": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      },
+      "wall_seconds": 49.745920814049896,
+      "sim_seconds": 43.453,
+      "artifact": "/workspace/artifacts/scattered_command_1793243167208304751.json",
+      "image": "/workspace/artifacts/evaluation_scene_98caedbd0b7f4a479b42f95dfa0c331e.png"
+    },
+    {
+      "case": "seed_73_eraser",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 0.9730756461031919,
+      "max_other_displacement_m": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "wall_seconds": 47.34770635497989,
+      "sim_seconds": 41.05500000000001,
+      "artifact": "/workspace/artifacts/scattered_command_1793243240297763715.json",
+      "image": "/workspace/artifacts/evaluation_scene_6bf28446d7fa43648d9447ef842d9da6.png"
+    },
+    {
+      "case": "seed_73_red_crayon",
+      "passed": true,
+      "phase": "done",
+      "xy_error_mm": 2.3321617680385853,
+      "max_other_displacement_m": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "wall_seconds": 47.12734697997803,
+      "sim_seconds": 41.035,
+      "artifact": "/workspace/artifacts/scattered_command_1793243293251973004.json",
+      "image": "/workspace/artifacts/evaluation_scene_4b40c216b742443d986a1b96256e14e6.png"
+    }
+  ]
+}

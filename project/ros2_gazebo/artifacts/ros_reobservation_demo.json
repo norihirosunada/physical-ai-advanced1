@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "phase": "done",
+      "request": {
+        "id": "52d77ddf34054e6596c6970d1c39429f",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "xy_error": 0.0010748128488658722,
+      "perception_xy_error": 0.0007586005491377213,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793244602320649137.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "7f8f23fea2fa478ba00fdc3f3ba781e4",
+        "text": "消しゴムを戻して"
+      },
+      "location": "source",
+      "transfers": 2,
+      "xy_error": 0.002394839476069792,
+      "perception_xy_error": 0.002386822202246354,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793244649258987715.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "cd2c4f4d643b470da3b71596e8d7fd3f",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 3,
+      "xy_error": 0.0015236071161631825,
+      "perception_xy_error": 0.0012406032934313674,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793244712176872049.json"
+    }
+  ],
+  "video_fps": 10,
+  "camera_simulation_fps": 5,
+  "speed": 2,
+  "frames": 844,
+  "duration_seconds": 84.4,
+  "sim_start": 1277.8,
+  "sim_end": 1446.6,
+  "resampling": "timestamp-based, hold previous frame for missing samples",
+  "scope": "actual camera and ROS statuses; user-return fixture change is explicitly captioned"
+}

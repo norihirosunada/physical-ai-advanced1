@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "xy_error": 0.001646459482119762,
+      "perception_xy_error": 0.0012406032934313572,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793174111195016467.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "source",
+      "transfers": 2,
+      "xy_error": 0.002491534194162142,
+      "perception_xy_error": 0.0024263927945684456,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793174156574780085.json"
+    }
+  ],
+  "events": [
+    {
+      "phase": "ready",
+      "request": null,
+      "location": "unknown",
+      "transfers": 0,
+      "observation": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 400000000
+        },
+        "objects": {
+          "red_crayon": {
+            "position": [
+              0.23077694459309325,
+              0.050181278309536,
+              1.013
+            ],
+            "yaw": -0.12547862477676874,
+            "pixels": 1182,
+            "pixel_center": [
+              277.3274111675127,
+              196.60490693739425
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "blue_crayon": {
+            "position": [
+              0.158970971209863,
+              0.061685531868432356,
+              1.013
+            ],
+            "yaw": 0.31566328960118595,
+            "pixels": 1170,
+            "pixel_center": [
+              263.3735042735043,
+              283.7008547008547
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "eraser": {
+            "position": [
+              0.18140455555995097,
+              -0.004817299646515401,
+              1.013
+            ],
+            "yaw": 0.17985339561966462,
+            "pixels": 728,
+            "pixel_center": [
+              344.0370879120879,
+              256.49038461538464
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          }
+        }
+      }
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "unknown",
+      "transfers": 0,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9217589502055256,
+        "text": "消しゴムを持ってきて"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "source",
+      "transfers": 0,
+      "observation": {
+        "position": [
+          0.19061632970526873,
+          -0.033923322598883004,
+          1.013
+        ],
+        "yaw": -0.3487713932991028,
+        "pixels": 760,
+        "pixel_center": [
+          379.3407894736842,
+          245.31710526315788
+        ],
+        "region": "source",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "xy_error": 0.001646459482119762,
+      "perception_xy_error": 0.0012406032934313572,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793174111195016467.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9796313353978462,
+        "text": "消しゴムを戻して"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "observation": {
+        "position": [
+          0.17941620591845486,
+          -0.09862490474167217,
+          1.013
+        ],
+        "yaw": -0.34877118468284607,
+        "pixels": 848,
+        "pixel_center": [
+          457.8195754716981,
+          258.90212264150944
+        ],
+        "region": "receiving",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "source",
+      "transfers": 2,
+      "xy_error": 0.002491534194162142,
+      "perception_xy_error": 0.0024263927945684456,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793174156574780085.json"
+    }
+  ]
+}

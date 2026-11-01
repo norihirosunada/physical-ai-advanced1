@@ -1,0 +1,492 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "xy_error": 0.0010676152050557576,
+      "perception_xy_error": 0.0007586005491377187,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173597361483173.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "source",
+      "transfers": 2,
+      "xy_error": 0.002395112634761362,
+      "perception_xy_error": 0.002375115779938459,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173642602089333.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-2",
+        "text": "青いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 3,
+      "xy_error": 0.002475881524894312,
+      "perception_xy_error": 0.0008541222170709183,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173691469755092.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-3",
+        "text": "青いクレヨンを戻して"
+      },
+      "location": "source",
+      "transfers": 4,
+      "xy_error": 0.0021014512739156582,
+      "perception_xy_error": 0.0022657797687725893,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173737830590377.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-4",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 5,
+      "xy_error": 0.001983933652144898,
+      "perception_xy_error": 0.00016282673135026169,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173783246659843.json"
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-5",
+        "text": "赤いクレヨンを戻して"
+      },
+      "location": "source",
+      "transfers": 6,
+      "xy_error": 0.0033483235759604302,
+      "perception_xy_error": 0.0022565587601897402,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173828775673378.json"
+    }
+  ],
+  "events": [
+    {
+      "phase": "ready",
+      "request": null,
+      "location": "unknown",
+      "transfers": 0,
+      "observation": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 800000000
+        },
+        "objects": {
+          "red_crayon": {
+            "position": [
+              0.23077694459309325,
+              0.050181278309536,
+              1.013
+            ],
+            "yaw": -0.12547862477676874,
+            "pixels": 1182,
+            "pixel_center": [
+              277.3274111675127,
+              196.60490693739425
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "blue_crayon": {
+            "position": [
+              0.158970971209863,
+              0.061685531868432356,
+              1.013
+            ],
+            "yaw": 0.31566328960118595,
+            "pixels": 1170,
+            "pixel_center": [
+              263.3735042735043,
+              283.7008547008547
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          },
+          "eraser": {
+            "position": [
+              0.18140455555995097,
+              -0.004817299646515401,
+              1.013
+            ],
+            "yaw": 0.17985339561966462,
+            "pixels": 728,
+            "pixel_center": [
+              344.0370879120879,
+              256.49038461538464
+            ],
+            "region": "source",
+            "method": "calibrated RGB color and PCA"
+          }
+        }
+      }
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "unknown",
+      "transfers": 0,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9217589502055256,
+        "text": "消しゴムを持ってきて"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "source",
+      "transfers": 0,
+      "observation": {
+        "position": [
+          0.18140455555995097,
+          -0.004817299646515401,
+          1.013
+        ],
+        "yaw": 0.17985339561966462,
+        "pixels": 728,
+        "pixel_center": [
+          344.0370879120879,
+          256.49038461538464
+        ],
+        "region": "source",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-0",
+        "text": "消しゴムを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "xy_error": 0.0010676152050557576,
+      "perception_xy_error": 0.0007586005491377187,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173597361483173.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "selection": {
+        "status": "selected",
+        "target": "eraser",
+        "confidence": 0.9796313353978462,
+        "text": "消しゴムを戻して"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "receiving",
+      "transfers": 1,
+      "observation": {
+        "position": [
+          0.17964491901037316,
+          -0.09828744296089043,
+          1.013
+        ],
+        "yaw": 0.17985351482895418,
+        "pixels": 858,
+        "pixel_center": [
+          457.4102564102564,
+          258.6247086247086
+        ],
+        "region": "receiving",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-1",
+        "text": "消しゴムを戻して"
+      },
+      "location": "source",
+      "transfers": 2,
+      "xy_error": 0.002395112634761362,
+      "perception_xy_error": 0.002375115779938459,
+      "other_displacement": {
+        "red_crayon": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173642602089333.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-2",
+        "text": "青いクレヨンを持ってきて"
+      },
+      "location": "source",
+      "transfers": 2,
+      "selection": {
+        "status": "selected",
+        "target": "blue_crayon",
+        "confidence": 0.689817180739407,
+        "text": "青いクレヨンを持ってきて"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-2",
+        "text": "青いクレヨンを持ってきて"
+      },
+      "location": "source",
+      "transfers": 2,
+      "observation": {
+        "position": [
+          0.158970971209863,
+          0.061685531868432356,
+          1.013
+        ],
+        "yaw": 0.31566328960118595,
+        "pixels": 1170,
+        "pixel_center": [
+          263.3735042735043,
+          283.7008547008547
+        ],
+        "region": "source",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-2",
+        "text": "青いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 3,
+      "xy_error": 0.002475881524894312,
+      "perception_xy_error": 0.0008541222170709183,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173691469755092.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-3",
+        "text": "青いクレヨンを戻して"
+      },
+      "location": "receiving",
+      "transfers": 3,
+      "selection": {
+        "status": "selected",
+        "target": "blue_crayon",
+        "confidence": 0.8075932759429655,
+        "text": "青いクレヨンを戻して"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-3",
+        "text": "青いクレヨンを戻して"
+      },
+      "location": "receiving",
+      "transfers": 3,
+      "observation": {
+        "position": [
+          0.1781967761405775,
+          -0.09774373679019405,
+          1.013
+        ],
+        "yaw": 0.30278683723523403,
+        "pixels": 1288,
+        "pixel_center": [
+          456.75077639751555,
+          260.38121118012424
+        ],
+        "region": "receiving",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-3",
+        "text": "青いクレヨンを戻して"
+      },
+      "location": "source",
+      "transfers": 4,
+      "xy_error": 0.0021014512739156582,
+      "perception_xy_error": 0.0022657797687725893,
+      "other_displacement": {
+        "eraser": 0.0,
+        "red_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173737830590377.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-4",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "source",
+      "transfers": 4,
+      "selection": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.6898171807394069,
+        "text": "赤いクレヨンを持ってきて"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-4",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "source",
+      "transfers": 4,
+      "observation": {
+        "position": [
+          0.23077694459309325,
+          0.050181278309536,
+          1.013
+        ],
+        "yaw": -0.12547862477676874,
+        "pixels": 1182,
+        "pixel_center": [
+          277.3274111675127,
+          196.60490693739425
+        ],
+        "region": "source",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-4",
+        "text": "赤いクレヨンを持ってきて"
+      },
+      "location": "receiving",
+      "transfers": 5,
+      "xy_error": 0.001983933652144898,
+      "perception_xy_error": 0.00016282673135026169,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173783246659843.json"
+    },
+    {
+      "phase": "observing",
+      "request": {
+        "id": "scattered-5",
+        "text": "赤いクレヨンを戻して"
+      },
+      "location": "receiving",
+      "transfers": 5,
+      "selection": {
+        "status": "selected",
+        "target": "red_crayon",
+        "confidence": 0.8075932759429655,
+        "text": "赤いクレヨンを戻して"
+      }
+    },
+    {
+      "phase": "executing",
+      "request": {
+        "id": "scattered-5",
+        "text": "赤いクレヨンを戻して"
+      },
+      "location": "receiving",
+      "transfers": 5,
+      "observation": {
+        "position": [
+          0.17869061979377807,
+          -0.09830215110403603,
+          1.013
+        ],
+        "yaw": -0.12083280136045627,
+        "pixels": 1203,
+        "pixel_center": [
+          457.42809642560263,
+          259.7822111388196
+        ],
+        "region": "receiving",
+        "method": "calibrated RGB color and PCA"
+      }
+    },
+    {
+      "phase": "done",
+      "request": {
+        "id": "scattered-5",
+        "text": "赤いクレヨンを戻して"
+      },
+      "location": "source",
+      "transfers": 6,
+      "xy_error": 0.0033483235759604302,
+      "perception_xy_error": 0.0022565587601897402,
+      "other_displacement": {
+        "eraser": 0.0,
+        "blue_crayon": 0.0
+      },
+      "artifact": "/workspace/artifacts/scattered_command_1793173828775673378.json"
+    }
+  ]
+}

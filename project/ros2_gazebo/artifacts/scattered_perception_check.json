@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "id": "eraser",
+      "xy_error": 0.0007586005491377187,
+      "yaw_error_rad": null
+    },
+    {
+      "id": "red_crayon",
+      "xy_error": 0.00016282673135026169,
+      "yaw_error_rad": 0.0014951943577048432
+    },
+    {
+      "id": "blue_crayon",
+      "xy_error": 0.0008541222170709183,
+      "yaw_error_rad": 0.0018217498541899246
+    }
+  ],
+  "absent_and_occluded_checks": "PASS"
+}

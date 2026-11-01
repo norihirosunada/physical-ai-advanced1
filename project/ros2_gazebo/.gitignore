@@ -1,0 +1,6 @@
+artifacts/*.db3
+artifacts/motion_bag_*/
+artifacts/so101_bag_*/
+so101/generated.urdf
+so101/__pycache__/
+artifacts/so101_pick_bag_*/
